@@ -1,0 +1,41 @@
+2026-05-31 03:45:32.523 | ERROR    | trading_bot:send_message:48 | Telegram send failed: name 'aiohttp' is not defined
+2026-05-31 03:45:39.978 | ERROR    | trading_bot:send_message:49 | Telegram send failed: Cannot connect to host api.telegram.org:443 ssl:default [Could not contact DNS servers]
+2026-05-31 03:52:43.294 | WARNING  | trading_bot:load:110 | Model not found at models\xgboost_model.json
+2026-05-31 03:52:43.294 | INFO     | trading_bot:initialize:50 | No pre-trained model found. Will need training.
+2026-05-31 03:52:44.178 | WARNING  | trading_bot:load:110 | Model not found at models\xgboost_model.json
+2026-05-31 03:52:44.183 | INFO     | trading_bot:initialize:50 | No pre-trained model found. Will need training.
+2026-05-31 03:53:20.649 | WARNING  | trading_bot:load:110 | Model not found at models\xgboost_model.json
+2026-05-31 03:53:20.649 | INFO     | trading_bot:initialize:50 | No pre-trained model found. Will need training.
+2026-05-31 03:53:22.480 | WARNING  | trading_bot:load:110 | Model not found at models\xgboost_model.json
+2026-05-31 03:53:22.480 | INFO     | trading_bot:initialize:50 | No pre-trained model found. Will need training.
+2026-05-31 03:54:39.710 | WARNING  | trading_bot:load:110 | Model not found at models\xgboost_model.json
+2026-05-31 03:54:39.710 | INFO     | trading_bot:initialize:50 | No pre-trained model found. Will need training.
+2026-05-31 03:54:40.618 | WARNING  | trading_bot:load:110 | Model not found at models\xgboost_model.json
+2026-05-31 03:54:40.618 | INFO     | trading_bot:initialize:50 | No pre-trained model found. Will need training.
+2026-05-31 04:07:55.558 | WARNING  | trading_bot:load:110 | Model not found at models\xgboost_model.json
+2026-05-31 04:07:55.558 | INFO     | trading_bot:initialize:50 | No pre-trained model found. Will need training.
+2026-05-31 04:07:56.451 | WARNING  | trading_bot:load:110 | Model not found at models\xgboost_model.json
+2026-05-31 04:07:56.451 | INFO     | trading_bot:initialize:50 | No pre-trained model found. Will need training.
+2026-05-31 04:09:48.005 | INFO     | trading_bot:build:52 | XGBoost model built with 29 features
+2026-05-31 04:10:06.378 | INFO     | trading_bot:build:52 | XGBoost model built with 29 features
+2026-05-31 04:10:28.508 | INFO     | trading_bot:build:52 | XGBoost model built with 29 features
+2026-05-31 04:10:29.220 | INFO     | trading_bot:train:70 | Model trained. Best iteration: N/A
+2026-05-31 04:10:45.218 | INFO     | trading_bot:build:52 | XGBoost model built with 29 features
+2026-05-31 04:10:45.820 | INFO     | trading_bot:train:70 | Model trained. Best iteration: N/A
+2026-05-31 04:10:45.869 | INFO     | trading_bot:save:104 | Model saved to models\xgboost_model.json
+2026-05-31 04:10:53.538 | INFO     | trading_bot:load:119 | Model loaded from models\xgboost_model.json
+2026-05-31 04:10:54.612 | INFO     | trading_bot:load:119 | Model loaded from models\xgboost_model.json
+2026-05-31 04:13:20.846 | ERROR    | trading_bot:send_message:69 | Telegram API error: {'ok': False, 'error_code': 400, 'description': 'Bad Request: can\'t parse entities: Unsupported start tag "" at byte offset 188'}
+2026-05-31 08:35:35.449 | INFO     | trading_bot:load:119 | Model loaded from models\xgboost_model.json
+2026-05-31 08:35:36.485 | INFO     | trading_bot:load:119 | Model loaded from models\xgboost_model.json
+2026-05-31 08:59:46.585 | INFO     | trading_bot:load:119 | Model loaded from models\xgboost_model.json
+2026-05-31 08:59:47.750 | INFO     | trading_bot:load:119 | Model loaded from models\xgboost_model.json
+2026-06-01 10:59:44.804 | INFO     | trading_bot:build:53 | XGBoost model built with 31 features
+2026-06-01 10:59:44.905 | INFO     | trading_bot:build:64 | MLP Neural Network (16, 8 neurons) built successfully
+2026-06-01 11:00:22.561 | INFO     | trading_bot:build:53 | XGBoost model built with 31 features
+2026-06-01 11:00:22.569 | INFO     | trading_bot:build:64 | MLP Neural Network (16, 8 neurons) built successfully
+2026-06-01 11:00:23.211 | INFO     | trading_bot:train:83 | Training MLP Neural Network...
+2026-06-01 11:00:23.311 | INFO     | trading_bot:train:85 | MLP Neural Network training completed.
+2026-06-01 11:00:23.329 | INFO     | trading_bot:train:91 | Model trained. Best iteration: N/A
+2026-06-01 11:00:23.366 | INFO     | trading_bot:save:135 | XGBoost model saved to models\xgboost_xaut.json
+2026-06-01 11:00:23.370 | INFO     | trading_bot:save:143 | MLP Neural Network model saved to models\mlp_xaut.pkl
